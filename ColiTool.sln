@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColiTool.WebAPI", "ColiTool.WebAPI\ColiTool.WebAPI.csproj", "{CB903C45-8222-4BAA-B3C4-FD8CE78972CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColiTool.WebApi.Tests", "ColiTool.WebApi.Tests\ColiTool.WebApi.Tests.csproj", "{F13330CA-329F-4D24-A861-259588C98B2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColiTool.Common", "ColiTool.Common\ColiTool.Common.csproj", "{2A4DF36E-067D-4E37-A679-B2BFE8A81F2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColiTool.Database", "ColiTool.Database\ColiTool.Database.csproj", "{84E33909-8E47-4BEA-A77F-ABA502E6A53A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColiTool.Database.Tests", "ColiTool.Database.Tests\ColiTool.Database.Tests.csproj", "{A665A17B-F8FD-4803-AFCB-7F63468F0D8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColiTool.CanBus", "ColiTool.CanBus\ColiTool.CanBus.csproj", "{8137FC9D-027D-41D6-B02F-08EAACDA3DE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB903C45-8222-4BAA-B3C4-FD8CE78972CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB903C45-8222-4BAA-B3C4-FD8CE78972CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB903C45-8222-4BAA-B3C4-FD8CE78972CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB903C45-8222-4BAA-B3C4-FD8CE78972CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13330CA-329F-4D24-A861-259588C98B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13330CA-329F-4D24-A861-259588C98B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13330CA-329F-4D24-A861-259588C98B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13330CA-329F-4D24-A861-259588C98B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A4DF36E-067D-4E37-A679-B2BFE8A81F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4DF36E-067D-4E37-A679-B2BFE8A81F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4DF36E-067D-4E37-A679-B2BFE8A81F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4DF36E-067D-4E37-A679-B2BFE8A81F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84E33909-8E47-4BEA-A77F-ABA502E6A53A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84E33909-8E47-4BEA-A77F-ABA502E6A53A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E33909-8E47-4BEA-A77F-ABA502E6A53A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84E33909-8E47-4BEA-A77F-ABA502E6A53A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A665A17B-F8FD-4803-AFCB-7F63468F0D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A665A17B-F8FD-4803-AFCB-7F63468F0D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A665A17B-F8FD-4803-AFCB-7F63468F0D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A665A17B-F8FD-4803-AFCB-7F63468F0D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8137FC9D-027D-41D6-B02F-08EAACDA3DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8137FC9D-027D-41D6-B02F-08EAACDA3DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8137FC9D-027D-41D6-B02F-08EAACDA3DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8137FC9D-027D-41D6-B02F-08EAACDA3DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F92294D1-2F39-4F2E-B0C4-52026E60863C}
+	EndGlobalSection
+EndGlobal
