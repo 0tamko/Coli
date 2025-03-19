@@ -9,7 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.3" />
-	 <ProjectReference Include="..\ColiTool.CanBus\ColiTool.CanBus.csproj" />
+    <ProjectReference Include="..\ColiTool.CanBus\ColiTool.CanBus.csproj" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 

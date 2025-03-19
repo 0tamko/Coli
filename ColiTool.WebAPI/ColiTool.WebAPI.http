@@ -1,6 +1,6 @@
 @ColiTool.WebAPI_HostAddress = http://localhost:5247
 
-GET {{ColiTool.WebAPI_HostAddress}}/weatherforecast/
+GET {{ColiTool.WebAPI_HostAddress}}/Can/status
 Accept: application/json
 
 ###
