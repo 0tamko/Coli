@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{2A4DF36E-067D-4E37-A679-B2BFE8A81F2B}|ColiTool.Common\\ColiTool.Common.csproj|solutionrelative:colitool.common\\canmessage\\sdoserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A4DF36E-067D-4E37-A679-B2BFE8A81F2B}|ColiTool.Common\\ColiTool.Common.csproj|c:\\users\\z0053u9y\\source\\repos\\coli\\colitool.common\\canmessage\\sdorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A4DF36E-067D-4E37-A679-B2BFE8A81F2B}|ColiTool.Common\\ColiTool.Common.csproj|solutionrelative:colitool.common\\canmessage\\sdorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A4DF36E-067D-4E37-A679-B2BFE8A81F2B}|ColiTool.Common\\ColiTool.Common.csproj|c:\\users\\z0053u9y\\source\\repos\\coli\\colitool.common\\canmessage\\pdomessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A4DF36E-067D-4E37-A679-B2BFE8A81F2B}|ColiTool.Common\\ColiTool.Common.csproj|solutionrelative:colitool.common\\canmessage\\pdomessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A4DF36E-067D-4E37-A679-B2BFE8A81F2B}|ColiTool.Common\\ColiTool.Common.csproj|c:\\users\\z0053u9y\\source\\repos\\coli\\colitool.common\\canmessage\\sdoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A4DF36E-067D-4E37-A679-B2BFE8A81F2B}|ColiTool.Common\\ColiTool.Common.csproj|solutionrelative:colitool.common\\canmessage\\sdoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A4DF36E-067D-4E37-A679-B2BFE8A81F2B}|ColiTool.Common\\ColiTool.Common.csproj|c:\\users\\z0053u9y\\source\\repos\\coli\\colitool.common\\canmessage\\pdomessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A4DF36E-067D-4E37-A679-B2BFE8A81F2B}|ColiTool.Common\\ColiTool.Common.csproj|solutionrelative:colitool.common\\canmessage\\pdomessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A4DF36E-067D-4E37-A679-B2BFE8A81F2B}|ColiTool.Common\\ColiTool.Common.csproj|c:\\users\\z0053u9y\\source\\repos\\coli\\colitool.common\\canmessage\\sdorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A4DF36E-067D-4E37-A679-B2BFE8A81F2B}|ColiTool.Common\\ColiTool.Common.csproj|solutionrelative:colitool.common\\canmessage\\sdorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A4DF36E-067D-4E37-A679-B2BFE8A81F2B}|ColiTool.Common\\ColiTool.Common.csproj|c:\\users\\z0053u9y\\source\\repos\\coli\\colitool.common\\canmessage\\canmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -40,14 +40,14 @@
               "RelativeDocumentMoniker": "ColiTool.Common\\CanMessage\\SdoServer.cs",
               "ToolTip": "C:\\Users\\z0053u9y\\source\\repos\\Coli\\ColiTool.Common\\CanMessage\\SdoServer.cs",
               "RelativeToolTip": "ColiTool.Common\\CanMessage\\SdoServer.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T10:05:49.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "PdoMessage.cs",
               "DocumentMoniker": "C:\\Users\\z0053u9y\\source\\repos\\Coli\\ColiTool.Common\\CanMessage\\PdoMessage.cs",
               "RelativeDocumentMoniker": "ColiTool.Common\\CanMessage\\PdoMessage.cs",
@@ -73,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SdoRequest.cs",
               "DocumentMoniker": "C:\\Users\\z0053u9y\\source\\repos\\Coli\\ColiTool.Common\\CanMessage\\SdoRequest.cs",
               "RelativeDocumentMoniker": "ColiTool.Common\\CanMessage\\SdoRequest.cs",
@@ -94,7 +94,8 @@
               "RelativeToolTip": "ColiTool.Common\\CanMessage\\CanModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T14:27:17.151Z"
+              "WhenOpened": "2025-03-18T14:27:17.151Z",
+              "EditorCaption": ""
             }
           ]
         }
