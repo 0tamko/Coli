@@ -14,5 +14,7 @@ namespace ColiTool.Database
         }
         //define DbSets (tables) here
         public DbSet<Entities.TestEntity> TestEntities { get; set; }
+        public DbSet<Entities.CanMessage> CanMessages { get; set; }
+        public DbSet<Entities.Configuration> Configurations { get; set; }
     }
 }
