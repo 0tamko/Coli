@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "gK8XovnJx/G+Qld4ld2fTEgtwzmiVm5gBlgdln94Rms=",
+  "Hash": "bhDMWQCWlDwkrySNCoVtwUd5XD28y7yKkeu9bDsDHOo=",
   "Source": "ColiTool.WebAPI",
   "BasePath": "_content/ColiTool.WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

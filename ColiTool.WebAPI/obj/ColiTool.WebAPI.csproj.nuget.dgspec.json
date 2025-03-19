@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\z004v8xk\\source\\repos\\ColiTool\\ColiTool.WebAPI\\ColiTool.WebAPI.csproj": {}
+    "C:\\Users\\z0053u9z\\Source\\Repos\\Coli\\ColiTool.WebAPI\\ColiTool.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\z004v8xk\\source\\repos\\ColiTool\\ColiTool.WebAPI\\ColiTool.WebAPI.csproj": {
+    "C:\\Users\\z0053u9z\\Source\\Repos\\Coli\\ColiTool.CanBus\\ColiTool.CanBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\z004v8xk\\source\\repos\\ColiTool\\ColiTool.WebAPI\\ColiTool.WebAPI.csproj",
-        "projectName": "ColiTool.WebAPI",
-        "projectPath": "C:\\Users\\z004v8xk\\source\\repos\\ColiTool\\ColiTool.WebAPI\\ColiTool.WebAPI.csproj",
-        "packagesPath": "C:\\Users\\z004v8xk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\z004v8xk\\source\\repos\\ColiTool\\ColiTool.WebAPI\\obj\\",
+        "projectUniqueName": "C:\\Users\\z0053u9z\\Source\\Repos\\Coli\\ColiTool.CanBus\\ColiTool.CanBus.csproj",
+        "projectName": "ColiTool.CanBus",
+        "projectPath": "C:\\Users\\z0053u9z\\Source\\Repos\\Coli\\ColiTool.CanBus\\ColiTool.CanBus.csproj",
+        "packagesPath": "C:\\Users\\z0053u9z\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\z0053u9z\\Source\\Repos\\Coli\\ColiTool.CanBus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\z004v8xk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\z0053u9z\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,9 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://for.artifactory.healthcare.siemens.com/artifactory/api/nuget/v3/di_xp_nuget_forl/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -46,7 +43,77 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\z0053u9z\\Source\\Repos\\Coli\\ColiTool.WebAPI\\ColiTool.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\z0053u9z\\Source\\Repos\\Coli\\ColiTool.WebAPI\\ColiTool.WebAPI.csproj",
+        "projectName": "ColiTool.WebAPI",
+        "projectPath": "C:\\Users\\z0053u9z\\Source\\Repos\\Coli\\ColiTool.WebAPI\\ColiTool.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\z0053u9z\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\z0053u9z\\Source\\Repos\\Coli\\ColiTool.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\z0053u9z\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\z0053u9z\\Source\\Repos\\Coli\\ColiTool.CanBus\\ColiTool.CanBus.csproj": {
+                "projectPath": "C:\\Users\\z0053u9z\\Source\\Repos\\Coli\\ColiTool.CanBus\\ColiTool.CanBus.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -70,7 +137,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

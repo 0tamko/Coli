@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "ColiTool.WebAPI/1.0.0": {
+        "dependencies": {
+          "ColiTool.CanBus": "1.0.0"
+        },
         "runtime": {
           "ColiTool.WebAPI.dll": {}
+        }
+      },
+      "ColiTool.CanBus/1.0.0": {
+        "runtime": {
+          "ColiTool.CanBus.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "ColiTool.WebAPI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ColiTool.CanBus/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

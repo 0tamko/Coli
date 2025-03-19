@@ -1,0 +1,12 @@
+C:\Users\z0053u9z\Source\Repos\Coli\ColiTool.CanBus\bin\Debug\net8.0\ColiTool.CanBus.deps.json
+C:\Users\z0053u9z\Source\Repos\Coli\ColiTool.CanBus\bin\Debug\net8.0\ColiTool.CanBus.dll
+C:\Users\z0053u9z\Source\Repos\Coli\ColiTool.CanBus\bin\Debug\net8.0\ColiTool.CanBus.pdb
+C:\Users\z0053u9z\Source\Repos\Coli\ColiTool.CanBus\obj\Debug\net8.0\ColiTool.CanBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\z0053u9z\Source\Repos\Coli\ColiTool.CanBus\obj\Debug\net8.0\ColiTool.CanBus.AssemblyInfoInputs.cache
+C:\Users\z0053u9z\Source\Repos\Coli\ColiTool.CanBus\obj\Debug\net8.0\ColiTool.CanBus.AssemblyInfo.cs
+C:\Users\z0053u9z\Source\Repos\Coli\ColiTool.CanBus\obj\Debug\net8.0\ColiTool.CanBus.csproj.CoreCompileInputs.cache
+C:\Users\z0053u9z\Source\Repos\Coli\ColiTool.CanBus\obj\Debug\net8.0\ColiTool.CanBus.sourcelink.json
+C:\Users\z0053u9z\Source\Repos\Coli\ColiTool.CanBus\obj\Debug\net8.0\ColiTool.CanBus.dll
+C:\Users\z0053u9z\Source\Repos\Coli\ColiTool.CanBus\obj\Debug\net8.0\refint\ColiTool.CanBus.dll
+C:\Users\z0053u9z\Source\Repos\Coli\ColiTool.CanBus\obj\Debug\net8.0\ColiTool.CanBus.pdb
+C:\Users\z0053u9z\Source\Repos\Coli\ColiTool.CanBus\obj\Debug\net8.0\ref\ColiTool.CanBus.dll
