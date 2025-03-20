@@ -1,12 +1,15 @@
+using ColiTool.CanBus;
+using ColiTool.WebAPI.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Services.AddSingleton<CanBusService>();
+
+builder.Services.AddHostedService<CanBackgroundService>();
 
 builder.Services.AddControllers();
 
 var app = builder.Build();
-
-// Configure the HTTP request pipeline.
 
 app.UseHttpsRedirection();
 

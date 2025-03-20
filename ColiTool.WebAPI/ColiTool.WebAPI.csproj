@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ColiTool.CanBus\ColiTool.CanBus.csproj" />
+    <ProjectReference Include="..\ColiTool.Common\ColiTool.Common.csproj" />
   </ItemGroup>
 
 </Project>
