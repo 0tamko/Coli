@@ -13,5 +13,13 @@ namespace ColiTool.WebAPI.Hubs
         {
             await Clients.All.SendAsync("StatusChanged", status);
         }
+
+        // Method to get a response from the server
+        public Task<string> GetServerResponse(string request)
+        {
+            // Process the request and return a response
+            string response = $"Server received: {request}";
+            return Task.FromResult(response);
+        }
     }
 }
