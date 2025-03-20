@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ColiTool.Common")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+648ef82ca76195c692912c59f83afe94cad7cb5a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82739a544fbb4fb4ac49a8920b6754649c6bff2e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ColiTool.Common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ColiTool.Common")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -16,7 +16,7 @@ namespace ColiTool.Common.CanMessage
             if (request.Data.Length <= 4)
 
             {
-                return ProccessExpedited(request);
+                return ProcessExpedited(request);
             }
             else
             {
@@ -24,7 +24,7 @@ namespace ColiTool.Common.CanMessage
             }
         }
 
-        private SdoResponse ProccessExpedited(SdoRequest request)
+        private SdoResponse ProcessExpedited(SdoRequest request)
         {
             objectDictionary[request.Index] = request.Data;    //ulozenie dat do slovnika
 

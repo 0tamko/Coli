@@ -12,6 +12,11 @@ namespace ColiTool.Common.CanMessage
         public byte[] Data { get; set; }
 
 
+        public static Dictionary<int, string> Mapping = new Dictionary<int, string>()
+        {
+
+        };
+
         public PdoMessage(int id, byte[] data)
         {
             Id = id;
