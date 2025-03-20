@@ -6,22 +6,16 @@ using System.Threading.Tasks;
 
 namespace ColiTool.Common.CanMessage
 {
-    class PdoMessage
+    public class PdoMessage
     {
         public int Id { get; set; }
         public byte[] Data { get; set; }
-
-
-        public static Dictionary<int, string> Mapping = new Dictionary<int, string>()
-        {
-
-        };
-
-        public PdoMessage(int id, byte[] data)
+        public DateTime Timestamp { get; set; }
+        public PdoMessage(int id, byte[] data, DateTime timestamp)
         {
             Id = id;
             Data = data;
+            Timestamp = timestamp;
         }
-
     }
 }
