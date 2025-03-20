@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>SignalR CAN Bus Test</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.11/signalr.min.js"></script>
+</head>
+<body>
+    <h1>SignalR CAN Bus Test</h1>
+    <div>
+        <h2>Messages</h2>
+        <ul id="messagesList"></ul>
+    </div>
+    <div>
+        <h2>Status</h2>
+        <ul id="statusList"></ul>
+    </div>
+    <script>
+        // Create a connection to the SignalR hub
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/canbusHub")
+            .configureLogging(signalR.LogLevel.Information)
+            .build();
+
+        // Log connection start
+        connection.start()
+            .then(() => {
+                console.log("SignalR connection established");
+            })
+            .catch(err => {
+                console.error("SignalR connection error:", err.toString());
+            });
+
+        // Log connection close
+        connection.onclose(() => {
+            console.log("SignalR connection closed");
+        });
+
+        // Handle received messages
+        connection.on("ReceiveMessage", function (message) {
+            console.log("Received message:", message);
+            const li = document.createElement("li");
+            li.textContent = message;
+            document.getElementById("messagesList").appendChild(li);
+        });
+
+        // Handle received status updates
+        connection.on("ReceiveStatus", function (status) {
+            console.log("Received status:", status);
+            const li = document.createElement("li");
+            li.textContent = status;
+            document.getElementById("statusList").appendChild(li);
+        });
+
+        // Log reconnection attempts
+        connection.onreconnecting(error => {
+            console.warn("SignalR connection lost. Reconnecting...", error);
+        });
+
+        // Log successful reconnection
+        connection.onreconnected(connectionId => {
+            console.log("SignalR reconnected. Connection ID:", connectionId);
+        });
+    </script>
+</body>
+</html>
