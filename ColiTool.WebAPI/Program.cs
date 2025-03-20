@@ -5,9 +5,14 @@ using ColiTool.WebAPI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
+using ColiTool.CanBus;
+using ColiTool.WebAPI.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Services.AddSingleton<CanBusService>();
+
+builder.Services.AddHostedService<CanBackgroundService>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
