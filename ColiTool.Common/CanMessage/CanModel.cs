@@ -12,9 +12,6 @@ namespace ColiTool.Common.CanMessage
         public byte[] Data { get; set; }
         public int Length { get; set; }
         public DateTime Timestamp { get; set; }
-
-
-
         public CanModel(int id, byte[] data, int length, DateTime timestamp)
         {
             Id = id;
@@ -22,10 +19,8 @@ namespace ColiTool.Common.CanMessage
             Length = length;
             Timestamp = timestamp;
         }
-
-
-       }
-
-
     }
+
+
+}
 
